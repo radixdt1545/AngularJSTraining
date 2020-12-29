@@ -93,6 +93,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assignment_Session1\Index.html" />
+    <Content Include="Assignment_Session2\Index.html" />
+    <Content Include="Assignment_Session2\login\Login.html" />
+    <Content Include="Assignment_Session2\login\login.js" />
+    <Content Include="Assignment_Session2\main.js" />
+    <Content Include="Assignment_Session2\product\Add.html" />
+    <Content Include="Assignment_Session2\product\List.html" />
+    <Content Include="Assignment_Session2\product\product.js" />
     <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap-theme.css" />
     <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap-theme.min.css" />
     <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap.css" />
@@ -959,10 +966,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assignment_Session2\login\" />
-    <Folder Include="Assignment_Session2\product\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
