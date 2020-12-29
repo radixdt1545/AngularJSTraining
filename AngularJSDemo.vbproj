@@ -93,13 +93,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assignment_Session1\Index.html" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap-theme.css" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap-theme.min.css" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap.css" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap.min.css" />
     <Content Include="Content\assets\css\style.css" />
+    <Content Include="Content\assets\fonts\bootstrap_3.3.7\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\assets\js\bootstrap_3.3.7\bootstrap.js" />
+    <Content Include="Content\assets\js\bootstrap_3.3.7\bootstrap.min.js" />
+    <Content Include="Content\assets\js\bootstrap_3.3.7\npm.js" />
     <Content Include="Content\assets\js\employeeController.js" />
     <Content Include="Content\assets\js\employeeDirective.js" />
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\js\productController.js" />
     <Content Include="HTML\Index.html" />
     <Content Include="Practice Exercise_Session1\Index.html" />
+    <Content Include="Practice Exercise_Session2\AboutUs.html" />
+    <Content Include="Practice Exercise_Session2\contactus\ContactUs.html" />
+    <Content Include="Practice Exercise_Session2\contactus\contactUs.js" />
+    <Content Include="Practice Exercise_Session2\Home.html" />
+    <Content Include="Practice Exercise_Session2\Index.html" />
+    <Content Include="Practice Exercise_Session2\main.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -905,6 +919,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap-theme.css.map" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap-theme.min.css.map" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap.css.map" />
+    <Content Include="Content\assets\css\bootstrap_3.3.7\bootstrap.min.css.map" />
+    <Content Include="Content\assets\fonts\bootstrap_3.3.7\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\assets\fonts\bootstrap_3.3.7\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\assets\fonts\bootstrap_3.3.7\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\assets\fonts\bootstrap_3.3.7\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\assets\js\jQuery\jQuery.min.js" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -937,7 +960,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\assets\fonts\" />
+    <Folder Include="Assignment_Session2\login\" />
+    <Folder Include="Assignment_Session2\product\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
